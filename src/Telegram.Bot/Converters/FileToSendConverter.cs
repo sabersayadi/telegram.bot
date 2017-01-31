@@ -15,6 +15,7 @@ namespace Telegram.Bot.Converters
             {
                 case FileType.Id:
                     writer.WriteValue(fts.FileId);
+                   // ''''cfghgvhvhjvjbhjbh
                     break;
                 case FileType.Url:
                     writer.WriteValue(fts.Url);
